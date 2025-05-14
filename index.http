@@ -1,0 +1,32 @@
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+  "title": "RRR",
+  "author": "SS Rajamouli",
+  "publishedYear": 2022
+}
+
+###
+
+GET http://localhost:3000/books
+
+###
+
+GET http://localhost:3000/books/411a6d95-5794-413a-a616-126764e11798
+
+###
+
+PUT http://localhost:3000/books/f49666e2-3903-408a-8e0a-b4d8d83cb3f2
+Content-Type: application/json
+
+{
+  "title": "R R R",
+  "author": "SS Rajamouli",
+  "publishedYear": 2022
+}
+
+###
+
+DELETE http://localhost:3000/books/eac232d7-bab9-4fc0-a8d4-750deb06d823
+
